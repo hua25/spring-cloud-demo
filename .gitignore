@@ -2,13 +2,13 @@
 build
 .gradle
 
-testdata/
 # Java gitignore #
+*.class
 .class
 .log
 
 # maven gitignore#
-target/**
+target/
 
 .svn/
 
@@ -26,7 +26,6 @@ bin/**
 */bin/**
 tmp/**
 tmp/**/*
-configuration/**
 *.tmp
 *.bak
 *.orig
@@ -44,12 +43,6 @@ configuration/**
 # Locally stored "Eclipse launch configurations"
 *.launch
 
-# CDT-specific
-.cproject
-
-# PDT-specific
-.buildpath
-
 #log
 *.log
 *.log.*
@@ -60,16 +53,5 @@ configuration/**
 # OSX
 .DS_Store
 
-# sass gitignore#
-.sass-cache
-.idea
-
-# tcc_coverage
-coverage.ec
-
-config.client.*
-
 temp/
-*.pid
-*.orig
 
